@@ -1,0 +1,45 @@
+{
+"title": "Gold Karat Purity Reference",
+"description": "Reference data for common gold karat levels and their approximate purity.",
+"source": "Gold Price Calculator",
+"karats": [
+{
+"karat": 10,
+"purity_percent": 41.7,
+"purity_decimal": 0.417
+},
+{
+"karat": 14,
+"purity_percent": 58.3,
+"purity_decimal": 0.583
+},
+{
+"karat": 18,
+"purity_percent": 75.0,
+"purity_decimal": 0.75
+},
+{
+"karat": 20,
+"purity_percent": 83.3,
+"purity_decimal": 0.833
+},
+{
+"karat": 22,
+"purity_percent": 91.7,
+"purity_decimal": 0.917
+},
+{
+"karat": 24,
+"purity_percent": 99.9,
+"purity_decimal": 0.999
+}
+],
+"formula": {
+"description": "Estimated gold value based on weight, karat, and 24K price per gram.",
+"calculation": "weight × (karat ÷ 24) × price_per_gram"
+},
+"reference": {
+"name": "GoldRateCal",
+"website": "https://goldratecal.com/"
+}
+}
