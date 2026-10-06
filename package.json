@@ -1,0 +1,21 @@
+{
+"name": "gold-price-calculator",
+"version": "1.0.0",
+"description": "A simple calculator for estimating gold value by weight, karat, and price per gram.",
+"main": "src/calculator.js",
+"scripts": {
+"test": "jest"
+},
+"keywords": [
+"gold",
+"gold-price",
+"gold-calculator",
+"karat",
+"gold-value",
+"precious-metals"
+],
+"license": "MIT",
+"devDependencies": {
+"jest": "^30.0.0"
+}
+}
